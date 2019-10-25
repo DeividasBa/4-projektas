@@ -1,0 +1,128 @@
+body {
+        font-family: monospace;
+        background-image: url("/images/ledas.png");
+        background-size: cover;
+        }
+
+    section{
+        margin-top: 40px;
+        border-radius: 20px;
+        padding: 30px;
+        display: inline-block;
+        width: 800px;
+        height: 500px;
+        margin-left: calc( (100% - 800px) / 2 );
+        background-image: linear-gradient(to bottom right, rgb(59, 166, 228), rgba(75, 26, 211, 0.308));
+        box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.486);
+    }
+    header {
+        display: inline-block;
+        width: 100%;
+        margin-top: 20px;
+    }
+        header > nav{
+            text-transform: uppercase;
+        }
+            nav > a {
+                display: inline-block;
+                float: left;
+                color: cornsilk;
+                text-decoration-line: none;
+                letter-spacing: -0.5px;
+                margin-top: 2px;
+            }
+
+            nav > img {
+                display: inline-block;
+                float: left;
+                padding: 0 5px 10px 40px;
+            }
+            
+            .menu {
+                display: inline-block;
+                width: 30%;
+                float: left;
+                color: cornsilk;
+                text-decoration-line: none;
+                letter-spacing: -0.5px; 
+                margin-top: 2px;
+            }
+
+
+            .right {
+                display: inline-block;
+                width: 140px;
+                color: cornsilk;
+                text-decoration-line: none;
+                letter-spacing: -0.5px;
+                padding-left: 280px;
+                margin-top: 2px;
+            }
+
+            main {
+                display: inline-block;
+                width: 100%;
+                margin-top: -10px;
+            }
+            
+            div {
+                width: 40%;
+                float: left;
+                margin-top: 100px;
+                padding-left: 50px;
+            }
+            
+            h1 {
+                display: inline-block;
+                font-size: 50px;
+                color: #fff;
+                margin-bottom: -40px;
+                font-weight: 400;
+                letter-spacing: -4px;
+                word-spacing: 2px;
+                text-transform: uppercase;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            }
+            
+            p {
+                display: inline-block;
+                color: #fff;
+                font-size: 13px;
+                margin-top: 30px;
+                margin-left: -50px;
+                text-transform: uppercase;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            }
+            
+            div > img {
+                display: inline-block;
+                float: left;
+                margin-top: -90px;
+                height: 400px;
+            } 
+            .cir {
+                background-color: cornsilk;
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                margin-top: 60px;
+                padding-left:0;
+                color:lightblue;
+                font-size: 18px;
+                text-align: center;
+                line-height: 46px;
+            }
+
+            .tri {
+                padding-left:0;
+                color:lightblue;
+                font-size: 18px;
+                text-align: center;
+                line-height: 46px;
+                margin-left: 16px;
+                margin-top: 0px;
+                
+            }
+            
