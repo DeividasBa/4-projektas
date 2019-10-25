@@ -116,13 +116,11 @@ body {
             }
 
             .tri {
-                padding-left:0;
-                color:lightblue;
-                font-size: 18px;
-                text-align: center;
-                line-height: 46px;
-                margin-left: 16px;
-                margin-top: 0px;
-                
-            }
+                    margin-left: 23px;
+                    margin-top: 18px;
+                    border-top: 6px solid transparent;
+                    border-bottom: 6px solid transparent;
+                    border-left: 5px solid lightblue;
+                  }
+            
             
