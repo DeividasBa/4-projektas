@@ -11,7 +11,7 @@ body {
         display: inline-block;
         width: 800px;
         height: 500px;
-        margin-left: calc( (100% - 800px) / 2 );
+        margin-left: calc(50% - 400px);
         background-image: linear-gradient(to bottom right, rgb(59, 166, 228), rgba(75, 26, 211, 0.308));
         box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.486);
     }
@@ -122,5 +122,4 @@ body {
                     border-bottom: 6px solid transparent;
                     border-left: 5px solid lightblue;
                   }
-            
             
